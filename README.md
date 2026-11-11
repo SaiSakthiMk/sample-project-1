@@ -1,4 +1,4 @@
-# Wadhwani Foundation Certificate Clone (Demo Reference)
+
 
 A pixel-perfect, fully functioning clone of the **Wadhwani Foundation Certificate Verification Web Application** for:
 `https://web.certificate.wfglobal.org/en/certificate?certificateId=6ae0ca9dfa09ff77a70fd003`
