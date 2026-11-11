@@ -1,0 +1,13 @@
+{
+  "name": "wf-certificate-clone",
+  "version": "1.0.0",
+  "description": "Pixel-perfect clone of Wadhwani Foundation Certificate Verification Web Application for project demo reference",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 server.py",
+    "serve": "npx serve ."
+  },
+  "keywords": ["certificate", "clone", "wadhwani-foundation", "demo"],
+  "author": "",
+  "license": "MIT"
+}

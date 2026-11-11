@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/assets/favicon.ico" type="image/x-icon"/>
+  <title>Certification - Wadhwani Foundation</title>
+  <meta name="apple-mobile-web-app-title" content="Certification"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+  <meta name="theme-color" content="#b1624d"/>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="App">
+    <!-- Header -->
+    <header class="layout_header">
+      <a class="logo-link" href="https://www.wfglobal.org" target="_blank" rel="noopener noreferrer">
+        <img class="logo-img" src="/assets/wadhwani-logo.png" alt="Wadhwani Foundation" width="80" height="42">
+      </a>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="layout_children">
+      <div class="certificate_container">
+        
+        <!-- Certificate Active View -->
+        <div id="certificate-content">
+          <!-- Verification Info Box -->
+          <section class="info_container" aria-label="Certificate Information">
+            <div class="certificate_heading">
+              <div>
+                <img class="heading_img" src="/assets/wf-emblem.png" alt="WF Emblem">
+              </div>
+              <div class="headining_desc">
+                <span class="info_description">This is verified certificate issued by</span>
+                <span class="info_subDesc">Wadhwani Foundation</span>
+              </div>
+            </div>
+
+            <!-- Certificate ID -->
+            <div class="common_label_data">
+              <span class="label_text">Certificate ID</span>
+              <span class="data_text" id="cert-id">6ae0ca9dfa09ff77a70fd003</span>
+            </div>
+
+            <!-- Issued Details -->
+            <div class="issued_detail">
+              <div class="common_label_data">
+                <span class="label_text">Certificate Recipient</span>
+                <span class="data_text" id="cert-recipient">SAISAKTHI MK</span>
+              </div>
+              <div class="common_label_data">
+                <span class="label_text">Issued on</span>
+                <span class="data_text" id="cert-issued-on">Oct 27, 2026</span>
+              </div>
+            </div>
+          </section>
+
+          <!-- Certificate Image Preview -->
+          <div class="img_container">
+            <div id="img-spinner" class="spinner" role="status" aria-label="Loading Certificate"></div>
+            <img id="cert-image" class="certificate_img" alt="Certificate Preview" style="display: none;">
+          </div>
+
+          <!-- Download Action -->
+          <div class="action_container">
+            <button id="download-btn" class="download_btn" disabled>
+              <span id="btn-spinner" class="spinner-small" style="display: none;"></span>
+              <svg id="btn-icon" viewBox="64 64 896 896" focusable="false" data-icon="download" width="1em" height="1em" fill="currentColor" aria-hidden="true">
+                <path d="M505.7 661a8 8 0 0012.6 0l112-141.7c4.1-5.2.4-12.9-6.3-12.9h-74.1V168c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v338.3H400c-6.7 0-10.4 7.7-6.3 12.9l112 141.8zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"></path>
+              </svg>
+              <span id="btn-text">Download Certificate</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Not Found View (Hidden by default) -->
+        <div id="notfound-content" class="notFounf_container" style="display: none;">
+          <img src="/assets/not_found.svg" alt="Certificate Not Found" class="not_found">
+          <p class="not_found_text">Certificate not found. Please verify the Certificate ID.</p>
+        </div>
+
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="layout_footer">
+      <div class="footer-container">
+        <div class="footer">
+          <!-- Top Row -->
+          <div class="footer-top-row">
+            <div class="for-more-info">
+              <span>For more information</span>
+              <a class="website-link" href="https://www.wfglobal.org" target="_blank" rel="noopener noreferrer">https://www.wfglobal.org</a>
+            </div>
+            <div class="follow-social-media">
+              <span>Follow us on social media</span>
+              <div class="social-icons-wrapper">
+                <a class="legal-link" href="https://www.facebook.com/wadhwanifoundation" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                  <img src="/assets/facebook.svg" class="social-media-icon" alt="Facebook">
+                </a>
+                <a class="legal-link" href="https://www.linkedin.com/company/wadhwanifoundation" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                  <img src="/assets/linkedin.svg" class="social-media-icon" alt="LinkedIn">
+                </a>
+                <a class="legal-link" href="https://www.instagram.com/wadhwanifoundation/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                  <img src="/assets/instagram.svg" class="social-media-icon" alt="Instagram">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <hr class="footer-divider">
+
+          <!-- Bottom Row -->
+          <div class="footer-bottom-row">
+            <div class="legal-links">
+              <a class="legal-link" href="https://www.wfglobal.org/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy policy</a>
+              <span class="legal-separator">|</span>
+              <a class="legal-link" href="https://www.wfglobal.org/terms/" target="_blank" rel="noopener noreferrer">Terms</a>
+              <span class="legal-separator">|</span>
+              <a class="legal-link" href="https://www.wfglobal.org/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie policy</a>
+            </div>
+            <div class="copyright">
+              <span>&copy; <span id="current-year">2026</span> Wadhwani Foundation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
